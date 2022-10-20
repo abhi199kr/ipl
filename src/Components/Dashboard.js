@@ -3,6 +3,7 @@ import Carousel from './Carousel'
 import Leader from './Leader'
 import News from './News'
 import Sponsor from './Sponsor'
+import Swipe from './Swipe'
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
       <News/>
       <Leader/>
       <Sponsor/>
+      <Swipe/>
     </div>
   )
 }
